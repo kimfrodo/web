@@ -1,9 +1,91 @@
-<h1>Hyper Text Media Language</h1>
-<h2 style="font-size:60">h2 태그에 style font-size로 크기 증가</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>김프로도</title>
+<style>
+ ul li{
+   border:1px solid red;
+   padding:10px;
+   margin:10px;
+   display:inline;
+ }
+</style>
+  </head>
+
+<body>
+ <h1>Hyper Text Media Language</h1>
+ <h2 style="font-size:70px">h2 태그에 style font-size로 크기 증가</h2>
+ <ul>
+   <p><li>margin:10px, padding:10px Ul 태그 사용하여 LI 삽입 첫번째</li></p>
+   <p><li>margin:10px, padding:10px Ul 태그 사용하여 LI 삽입 두번째</li></p>
+   <p><li>margin:10px, padding:10px Ul 태그 사용하여 LI 삽입 세번째</li></p>
+ </ul>
+ <br>
+ 리스트 삽입
+ <ol type="a">
+  <li>OL태그 삽입 type=a 변경. 기본은 1,2,3</li>
+  <li>OL태그 삽입 type=a 변경. 기본은 1,2,3</li>
+  <li>OL태그 삽입 type=a 변경. 기본은 1,2,3</li>
+ </ol>
+
+
+<br>
 <p>줄바꿈 테스트 p태그 사용</p>
 <br>줄바꿈 테스트 br태그 사용 <br>
 <br>
 <p>텍스트 안에 <u>언더라인과</u> <strong>스트롱 </strong>사용하여 문장 꾸미는 기초 단계</p>
 <p>이미지 삽입 a태그 사용 a href="#" img src="$" a태그 닫기</p>
-<p style="color:rgb(237, 167, 216)">이미지 삽입에 블랭크로 새창 띄워서 링크 넣고 타이틀은 kimfrodo로 입력. p태그에 style로 margin-top 값 삽입</p>
-<p style="margin-top:50px"><a href="https://kimfrodo.github.io/web/test." target="_blank" title="kimfrodo"><img src="http://web.xpedite.co.kr/Web/Images/logo_bnc.png"></a></p>
+<p style="color:rgb(237, 167, 216); font-size:30px"><strong><u>이미지 삽입에 블랭크로 새창 띄워서 링크 넣고 타이틀은 kimfrodo로 입력. p태그에 style로 margin-top 값 삽입</u></strong></p>
+<p style="margin-top:50px"><a href="https://kimfrodo.github.io/web/test" target="_blank" title="kimfrodo">
+<center><img src="http://web.xpedite.co.kr/Web/Images/logo_bnc.png" width=300></center></a></p>
+<br>
+<p style="font-size:30px">동영상 삽입, width, height 재생 크기 창 설정, allowfullscreen 입력</p>
+<p><iframe src="https://www.youtube.com/embed/jSJM9iOiQ1g" width="800" height="600" frameborder="0" allowfullscreen></iframe></p>
+
+<br>
+<br>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d8858f8c22bdd393bb7360d/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
+<!-- 라이브리 시티 설치 코드 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80NjczMC8yMzIzOQ==">
+<script type="text/javascript">
+  window.livereOptions = {
+refer: '(https://kimfrodo.github.io/web/test)'
+};
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+</div>
+<!-- 시티 설치 코드 끝 -->
+
+
+
+
+
+</body>
+</html>
