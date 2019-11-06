@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  padding: 25px;
+}
+
+ul li.a {
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+  display: inline;
+}
+
+ol li {
+  color: yellow;
+  font-size: 50px;
+  text-align: center;
+}
+
+ol li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+#sangsoori {
+  color: green;
+  font-size: 20px;
+  text-align: right;
+}
+
+#grid {
+  border:5px solid pink;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap:2px;
+  padding:5px;
+  margin:5px;
+  text-align:left;
+}
+
+#grid div {
+  border:1px solid black;
+}
+
+.josang9 {
+  color: orange;
+  font-size: 20px;
+  text-align: right;
+}
+
+div#divid {
+  border: 10px solid gray;
+  text-decoration: underline;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+
+a.josang9 {
+  color: violet;
+  font-size: 20px;
+  text-align: right;
+}
+
+@media(max-width:1400px) {
+  body {
+  background-color:lightgreen;
+}
+}
