@@ -1,8 +1,11 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
+<HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="utf-8">
+  <META content="IE=11.0000" http-equiv="X-UA-Compatible">
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <META name="GENERATOR" content="MSHTML 11.00.10570.1001">
   <title>김프로도 html 파일</title>
   <link rel="stylesheet" href="ref.css">
 </head>
@@ -11,6 +14,8 @@
 
   <h1 style="border:5px solid gray; padding:20px; margin:20px; display:block; width:100%">Hyper Text Media Languagee h1 태그에 style로 border solid gray padding 20px margin 20px display inline width 100% 설정</h1>
   <h2 style="font-size:70px">h2 태그에 style font-size로 크기 증가</h2>
+  <p style="font-size:15px">h1~h6 헤드 태그의 크기와 em<br>
+  em은 기본 font-size의 배율을 뜻하는 것으로 h1:2em:32px /> h2:1.5em:24px이다</p>
   <ul>
     <p>
       <li class="a">head에 style로 margin:10px; padding:10px; display:inline; Ul 태그 사용하여 LI 삽입 첫번째</li>
@@ -22,6 +27,19 @@
       <li class="a">head에 style로 margin:10px; padding:10px; display:inline; Ul 태그 사용하여 LI 삽입 첫번째</li>
     </p>
   </ul><br>
+
+<hr>
+<h2>HR 태그 연습 윗줄은 디폴트 hr </h2>
+<hr noshade>
+<p> 윗줄은 noshade 적용. hr 태그는 style 없이 바로 property 입력 </p>
+<hr size=30 width="80%" color="red" align="left">
+<p>hr size=10 width="80%" color="red" align="left" noshade</p>
+<hr style="height: 15px; border:5px outset rgb(77, 224, 251); background-color: #1ed434">
+<p>CSS 이용해서 선의 높이와 입체감을 만들었습니다. <br>hr style="height: 15px; border:5px outset rgb(77, 224, 251); background-color: #1ed434 </p>
+<hr style="height: 15px; border:5px dotted ;background-color: #1ed434">
+<p>hr style="height: 15px; border:5px dotted ;background-color: #1ed434</p>
+
+
   <p style="font-size:30px">head style에 ol li 태그로 color:yellow; font-size:50px, text-align:center 설정
     <br> ol li a 태그로 color:black; text-decroration:none 설정 </p><br><br>
   <ol>
@@ -93,11 +111,43 @@
 
   <p style="border:5px solid gray; display:inline-block; padding:15px; margin:15px; border-top:none; border-bottom:none"> 줄을 그어 봅시다 leftm right, top,<br> br태그 줄바꿈 현재 border를 5px solid gray로 설정 후에 <span style="color:red">display를 inline-block으로 설정 border-top, bottom : none</span></p>
 
+  <pre> pre 태그 사용 어떻게 표현이 되나요 ?? p태그랑 차이가 있나요 ??</pre>
+  <pre style="color:red"> preprepreprepreprepreprepreprepreprepreprepreprepreprepre
+  preprepreprepreprepreprepreprepre
+기본 폰트 사이즈보다 작은듯? 문단 띄어쓰기 같은 내용들이 에디터에서 입력하는 그대로 표현됨. 줄바꿈도 별도의
+태
+<div style="font-size:20px; color:blue">그 </div> 그를 div로 묶으니까 block 처리되어 다음 줄로 자동으로 넘어온다.
+가
+필요 없음</pre>
+
+<p style="border-top:black solid 5px">&lt; &gt; &nbsp; &amp; &quot; <br>html에서는 작다, 크다의 괄호나 공백 쌍따옴표(더블쿼터) & and 표시가 힘들다. 그래서 <span style="color:red">＆lt; ＆gt; ＆nbsp; ＆amp; ＆quot;</span>로 표현한다</p>
+<br>
+<p>img map area 설정 html &lt;map&gt; 태그는 &lt;img&gt; 태그에 usemap 속성으로 이미지 맵을 지정한다. <br>여기서 &lt;map&gt; 태그의 name의 이름과 usemap 속성의 value는 동일해야 한다. 이때 usemap 속성의 값에는 #을 앞에 작성해야 한다. id는 name 속성에서 정한 것과 동일한 이름을 넣는다.<br><br>
+
+<span style="color:red; font-size:25px; font-weight:bold">&lt;area&gt; 태그</span><br>
+이미지 맵의 영역을 지정하기 위해서 사용되며 &lt;map&gt; &lt;map&gt; 요소 내부에 포함되어 작성한다.
+&lt;area&gt; 태그에 사용되는 주요 속성들은 아래와 같다.<br>
+alt 대체 텍스트 지정
+coords 링크로 사용할 영역 좌표
+href 하이퍼링크 주소
+shape 영역의 형태를 지정 (defalut : 화면 전체 / rect : 사각형 / circle : 원형 / poly : 다각형)<br>
+&lt;IMG width="740" height="1047" src="./EPI20191.jpg" border="0" usemap="#Map"&gt; &lt;MAP name="Map" id="Map"&gt;
+  &lt;AREA href="https://electricindonesia.com/" shape="rect" coords="116,331,367,437"&gt;<br>url 주소 대신에 mailto:jykim@xpbnc.co.kr 이메일 주소도 가능 <br>a href 태그에도 적용 가능한데 IE에서는 구현 안되고 크롬에서는 구현됨.  <br><span style="color:red; font-size:30px font-weight:bold"> 만약 이미지를 100% 처럼 %로 설정하거나 이미지의 크기를 변경할 경우 능동적으로 따라 움직이지 못하기 때문에 반응할 수 없음. 좌표이기 때문에 fucking</span> </p>
+
+<a href="http://web.xpedite.co.kr/Web/" target="_blank" title="통합웹"> <img src="./1.jpg" alt="엑스퍼다이트" usemap="#sangsoori9"> <map name="sangsoori9" id="sangsoori9">
+  <area shape="rect" coords="323,14,457,48" href="http://web.xpedite.co.kr/Web/Mobile.php" target="_blank" title="Mobile" alt="test">
+  <area shape="rect" coords="188,14,322,48" href="http://web.xpedite.co.kr/Web/Fax.php" target="_blank" title="Fax" alt="test">
+  <area shape="rect" coords="457,14,592,48" href="http://web.xpedite.co.kr/Web/RFax.php" target="_blank" title="RFax" alt="test">
+  <area shape="rect" coords="592,14,727,48" href="http://web.xpedite.co.kr/Web/AddressBook.php" target="_blank" title="AddressBook" alt="test">
+  <area shape="rect" coords="608,701,997,780" href="mailto:jykim@xpbnc.co.kr" target="_blank" title="AddressBook" alt="test">
+</map></a>
+<p style="font-size:50px">&nbsp;</p>
 
 
   <p style="font-size:30px">동영상 삽입, width, height 재생 크기 창 설정, allowfullscreen 입력 <br>
     iframe src="https://www.youtube.com/embed/jSJM9iOiQ1g" width="800" height="600" frameborder="0" <span style="color:red">allowfullscreen</span></p>
   <p><iframe src="https://www.youtube.com/embed/jSJM9iOiQ1g" width="800" height="600" frameborder="0" allowfullscreen></iframe></p><br><br>
+
 
 
 
@@ -149,4 +199,8 @@
 
 </body>
 
+<address style="font-size:13px; background-color:rgb(142, 139, 137)">
+    개인정보취급방침 서비스 이용 약관 스팸정책&관련법률<br/>
+    Kimfrodo's Test is powered by Atom / Designed by ...
+</address>
 </html>
